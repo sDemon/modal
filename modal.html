@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Modal Window</title>
+    <link rel="stylesheet" href="css/modal.css">
+</head>
+<body>
+<div class="overlay is-hidden" id="overlay">
+    <div class="modal-content">
+        <span class="button-close" onclick="modal.closeModal();"></span>
+        <h3>Modal Heading</h3>
+        <p>Modal Content</p>
+    </div>
+</div>
+<a onclick="modal.openModal();" href="#">Open modal</a>
+<script src="js/modal.js"></script>
+</body>
+</html>
